@@ -1,0 +1,81 @@
+﻿		 -----------------------------------------
+
+		|  Installation d'EvalExplo sous Win 7 :  |
+
+		 -----------------------------------------
+
+1) Détecter sa version de Win$ (32 bits ou 64 bits) :
+   --------------------------------------------------
+Aller dans le panneau de configuration -> Système et sécurité -> Système
+Regarder ici le type du système d'exploitation (32 bits ou 64 bits)
+
+2) Installer Python 2.7 :
+   ----------------------
+Télecharger la version de python correspondant à votre système ici :
+https://www.python.org/downloads/release/python-2710/
+
+Soit :
+  - Windows x86-64 MSI installer (pour 64 bits)
+  - Windows x86 MSI installer (pour 32 bits)
+
+Pendant l'installation, cocher la case "Ajouter python.exe au path".
+
+3) Installer Miktex :
+   ------------------
+De même, installez la version de Miktex correspondant à votre système ici : 
+http://miktex.org/download
+
+A l'heure où j'écris ces lignes, la version est la 2.9.5721 (mais ça peut changer)
+
+Choisir Basic MikTex 2.9.5721 Installer (il pèse à peu près 180 Mo, oui je sais c'est beaucoup...)
+et faire l'installation par défaut.
+
+Attention : avant de lancer l'installation, allez dans votre répertoire de téléchargement et cliquez sur basic-miktex-2.9.5721.exe avec le bouton de droite et faîtes "Propriété".
+
+Dans l'onglet compatibilité, cochez la case "Lancer ce programme en mode de compatibilité" et choisir "Windows Vista".
+
+4) Configurer Miktex :
+   -------------------
+C'est la partie un peu pénible...
+
+Ouvrir Programme -> MiKTeX 2.9 -> Maintenance(Admin) -> MiKTeX Package Manager
+
+Dans la fenêtre qui s'ouvre, installer les paquets suivants (clique droit sur le nom et "install") :
+  - babel-french
+  - pgf
+  - ms
+  - xcolor
+  - colortbl
+  - mptopdf
+
+Pour les trouver, vous avez une case "Name" en haut à droite. Tapez le nom du paquet puis cliquez sur "Filter"
+
+5) Installer Evince :
+   ------------------
+À cause de problèmes de licence, on ne peut plus lancer Acrobat Reader en ligne de commande (du grand n'import quoi !...).
+
+Aussi il faut installer le lecteur de pdf Evince ici :
+https://wiki.gnome.org/Apps/Evince/Downloads
+
+et faire l'installation par défaut.
+
+6) Installation d'EvalExplo :
+   --------------------------
+Copier le dossier "Exploration" dans votre dossier personnel (PAS LA LIBRAIRIE).
+C'est le dossier dans lequel vous allez travailler.
+
+7) C'est fini !!
+   -------------
+Si tout va bien, il vous suffit de double cliquer sur EvalExplo.py pour le lancer.
+Essayez de créer une fiche pour voir si tout va bien.
+Quand vous sortez, votre travail est automatiquement sauvegardé et rechargé quand vous reprenez.
+
+Vous pouvez générer les fiches pour élève (individuellement), ou lancer d'un coup la création d'un pdf contenant toutes les fiches des votre session.
+
+Vous pouvez également générer un fichier contenant toutes les appréciations pour les coller dans pronote.
+
+En cas de problème, n'hésitez pas à m'envoyer un mail...
+
+Frédéric Muller
+Lycée Arbez Carme
+maths.muller@gmail.com

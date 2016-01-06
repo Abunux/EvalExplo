@@ -1,0 +1,30 @@
+﻿	 -------------------------
+	| Utilisation d'EvalExplo |
+	 -------------------------
+
+1) Lors du lancement, vous avez une fenêtre vous demandant :
+  - Votre enseigment d'exploration
+  - La classe pour laquelle vous voulez faire vos évaluations (vous pouvez choisir "Toutes")
+  - Le trimestre
+
+2) Ensuite vous pouvez naviguer entre les élèves et remplir les fiches.
+
+3) Vous pouvez générer les fiches individuellement, elles seront stockées dans votre dossier Exploration.
+Chaque fiche individuelle est nommée suivant le schéma : Classe-Option-Trimestre-Nom-Prénom.pdf
+
+Sinon vous pouvez attendre d'avoir fini et générer un pdf contenant toutes les fiches (pour les élèves de parents divorcés, la fiche est automatiquement crée en double).
+Ce fichier est nommé sous le schéma : Année-Classe-Option-Trimestre.pdf
+
+Vous pouvez également générer un fichier texte contenant toutes les appréciations pour les copier-coller dans pronote.
+
+4) Quand vous quittez, votre session est automatiquement sauvegardée et elle est rechargée quand vous relancez les programme.
+Le format de sauvegarde est .csv : c'est un format de tableur très portable. Chaque entrée est séparée par des #.
+Si plusieurs profs bossent dans une option, vous pouvez donc évaluer vos élève et envoyer ce fichier .csv à vos collègues. Le dernier pouvant générer le gros pdf avec toutes les fiches.
+
+5) Vous pouvez mettre le fichier EvalExplo.py où vous voulez pour ne pas le mélanger avec votre travail, il est indépendant.
+
+En cas de soucis vous pouvez m'envoyer un mail.
+
+Frédéric Muller
+Lycée Arbez Carme
+maths.mulle@gmail.com
