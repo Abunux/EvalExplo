@@ -91,9 +91,9 @@
 	Vous pouvez le générer avec un tableur en choisissant le format CSV
 	au moment de la sauvegarde.
 
- - La session est sauvegardée dans un fichier .csv dont le séparateur est 
+ - La session est sauvegardée dans un fichier .csv dont le séparateur est #
 	Chaque ligne est sous le modèle :
-		NomPrénomClasseOptionAnnéeTrimestreNote1Note2Note3Note4Appréciation
+		Nom#Prénom#Classe#Option#Année#Trimestre#Note1#Note2#Note3#Note4#Appréciation
 	(Note va de 0 à 3)
 	Vous pouvez donc éditer votre session au tableur
 
