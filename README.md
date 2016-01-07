@@ -23,7 +23,6 @@
 
  Installation sous win 7 :
  -------------------------
- 
  - Détecter sa version de windows (32 bit ou 64 bit).
 
  - Installer Python 2.7 :
