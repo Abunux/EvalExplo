@@ -23,34 +23,36 @@
 
  Installation sous win 7 :
  -------------------------
- 1) Détecter sa version de windows (32 bit ou 64 bit).
+ 
+ - Détecter sa version de windows (32 bit ou 64 bit).
 
- 2) Installer Python 2.7 :
+ - Installer Python 2.7 :
 		https://www.python.org/downloads/release/python-2710/
 
 	Important : cocher "Ajouter python.exe au path" pendant l'install
 
- 3) Installer MikTex (Basic Installer qui fait 180 Mo) :
+ - Installer MikTex (Basic Installer qui fait 180 Mo) :
 		http://miktex.org/download
 
 	Important : Sous Win7, lancer l'installeur en mode de compatibilité Windows Vista
 
- 4) Installer les paquets Latex suivant avec MikTek Package Manager (Admin) :
-	- babel-french
-	- pgf
-	- ms
-	- xcolor
-	- colortbl
-	- mptopdf
+ - Installer les paquets Latex suivant avec MikTek Package Manager (Admin) :
+ 
+  - babel-french
+  - pgf
+  - ms
+  - xcolor
+  - colortbl
+  - mptopdf
 
- 5) Installer Evince :
+ - Installer Evince :
 		https://wiki.gnome.org/Apps/Evince/Downloads
 
- 6) Copier ce fichier (EvalExplo.pyw) et ListeEleve.csv dans le 
+ - Copier ce fichier (EvalExplo.pyw) et ListeEleve.csv dans le 
 	répertoire "Exploration", créé dans votre dossier personnel :
 		Par ex C:\\Users\Toto\Exploration
 
- 7) Double-cliquer sur EvalExplo.pyw pour le lancer et essayer de créer
+ - Double-cliquer sur EvalExplo.pyw pour le lancer et essayer de créer
 	une fiche pour tester si tout va bien.
 
  Utilisation :
